@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "bc86b807f7187bd6c988476625c77594"
+build_time: [1518527353, 81807000]
+inputs:
+  "/Users/ryuya/Documents/ClassPassClone/ClassPassClone/OnBording01ViewController.swift": [1518501939, 0]
+  "/Users/ryuya/Documents/ClassPassClone/ClassPassClone/CustomClass.swift": [1518501023, 0]
+  "/Users/ryuya/Documents/ClassPassClone/ClassPassClone/ViewController.swift": [1518527352, 0]
+  "/Users/ryuya/Documents/ClassPassClone/ClassPassClone/TopPageViewController.swift": [1518526852, 0]
+  "/Users/ryuya/Documents/ClassPassClone/ClassPassClone/AppDelegate.swift": [1518527259, 0]

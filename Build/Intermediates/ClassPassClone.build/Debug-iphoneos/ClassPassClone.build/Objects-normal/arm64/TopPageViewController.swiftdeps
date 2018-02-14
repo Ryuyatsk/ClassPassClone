@@ -1,0 +1,562 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TopPageViewController"
+provides-nominal:
+- "14ClassPassClone21TopPageViewControllerC"
+provides-member:
+- ["14ClassPassClone21TopPageViewControllerC", ""]
+provides-dynamic-lookup:
+- "pageViewController"
+- "presentationCount"
+- "presentationIndex"
+- "viewDidLoad"
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "<"
+- !private ">"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Int"
+- "StringLiteralType"
+- "TopPageViewController"
+- "UIPageViewController"
+- "UIPageViewControllerDataSource"
+- "UIViewController"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "index"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "index"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "idList"]
+- !private ["s7CVarArgP", "index"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- ["s7CVarArgP", "pageViewController"]
+- ["s7CVarArgP", "presentationCount"]
+- ["s7CVarArgP", "presentationCountForPageViewController"]
+- ["s7CVarArgP", "presentationIndex"]
+- ["s7CVarArgP", "presentationIndexForPageViewController"]
+- !private ["s7CVarArgP", "restorationIdentifier"]
+- !private ["s7CVarArgP", "setViewControllers"]
+- !private ["s7CVarArgP", "storyboard"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "index"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "idList"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- ["s28CustomDebugStringConvertibleP", "pageViewController"]
+- ["s28CustomDebugStringConvertibleP", "presentationCount"]
+- ["s28CustomDebugStringConvertibleP", "presentationCountForPageViewController"]
+- ["s28CustomDebugStringConvertibleP", "presentationIndex"]
+- ["s28CustomDebugStringConvertibleP", "presentationIndexForPageViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "restorationIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "setViewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "storyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "index"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "idList"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- ["s23CustomStringConvertibleP", "pageViewController"]
+- ["s23CustomStringConvertibleP", "presentationCount"]
+- ["s23CustomStringConvertibleP", "presentationCountForPageViewController"]
+- ["s23CustomStringConvertibleP", "presentationIndex"]
+- ["s23CustomStringConvertibleP", "presentationIndexForPageViewController"]
+- !private ["s23CustomStringConvertibleP", "restorationIdentifier"]
+- !private ["s23CustomStringConvertibleP", "setViewControllers"]
+- !private ["s23CustomStringConvertibleP", "storyboard"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "index"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "index"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "dataSource"]
+- !private ["s9EquatableP", "forward"]
+- !private ["s9EquatableP", "idList"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- ["s9EquatableP", "pageViewController"]
+- ["s9EquatableP", "presentationCount"]
+- ["s9EquatableP", "presentationCountForPageViewController"]
+- ["s9EquatableP", "presentationIndex"]
+- ["s9EquatableP", "presentationIndexForPageViewController"]
+- !private ["s9EquatableP", "restorationIdentifier"]
+- !private ["s9EquatableP", "setViewControllers"]
+- !private ["s9EquatableP", "storyboard"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "dataSource"]
+- !private ["s8HashableP", "forward"]
+- !private ["s8HashableP", "idList"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateViewController"]
+- ["s8HashableP", "pageViewController"]
+- ["s8HashableP", "presentationCount"]
+- ["s8HashableP", "presentationCountForPageViewController"]
+- ["s8HashableP", "presentationIndex"]
+- ["s8HashableP", "presentationIndexForPageViewController"]
+- !private ["s8HashableP", "restorationIdentifier"]
+- !private ["s8HashableP", "setViewControllers"]
+- !private ["s8HashableP", "storyboard"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "index"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "idList"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "pageViewController"]
+- ["So8NSCodingP", "presentationCount"]
+- ["So8NSCodingP", "presentationCountForPageViewController"]
+- ["So8NSCodingP", "presentationIndex"]
+- ["So8NSCodingP", "presentationIndexForPageViewController"]
+- !private ["So8NSCodingP", "restorationIdentifier"]
+- !private ["So8NSCodingP", "setViewControllers"]
+- !private ["So8NSCodingP", "storyboard"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "dataSource"]
+- !private ["So26NSExtensionRequestHandlingP", "idList"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "pageViewController"]
+- ["So26NSExtensionRequestHandlingP", "presentationCount"]
+- ["So26NSExtensionRequestHandlingP", "presentationCountForPageViewController"]
+- ["So26NSExtensionRequestHandlingP", "presentationIndex"]
+- ["So26NSExtensionRequestHandlingP", "presentationIndexForPageViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "restorationIdentifier"]
+- !private ["So26NSExtensionRequestHandlingP", "setViewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UIPageViewController"]
+- !private ["So8NSObjectC", "UIPageViewControllerDataSource"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "dataSource"]
+- ["So8NSObjectC", "idList"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "pageViewController"]
+- ["So8NSObjectC", "presentationCount"]
+- ["So8NSObjectC", "presentationCountForPageViewController"]
+- ["So8NSObjectC", "presentationIndex"]
+- ["So8NSObjectC", "presentationIndexForPageViewController"]
+- !private ["So8NSObjectC", "restorationIdentifier"]
+- !private ["So8NSObjectC", "setViewControllers"]
+- !private ["So8NSObjectC", "storyboard"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "dataSource"]
+- !private ["So16NSObjectProtocolP", "idList"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- ["So16NSObjectProtocolP", "pageViewController"]
+- ["So16NSObjectProtocolP", "presentationCount"]
+- ["So16NSObjectProtocolP", "presentationCountForPageViewController"]
+- ["So16NSObjectProtocolP", "presentationIndex"]
+- ["So16NSObjectProtocolP", "presentationIndexForPageViewController"]
+- !private ["So16NSObjectProtocolP", "restorationIdentifier"]
+- !private ["So16NSObjectProtocolP", "setViewControllers"]
+- !private ["So16NSObjectProtocolP", "storyboard"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "index"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "index"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "forward"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "index"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["14ClassPassClone21TopPageViewControllerC", "Int"]
+- ["14ClassPassClone21TopPageViewControllerC", "UIPageViewController"]
+- !private ["14ClassPassClone21TopPageViewControllerC", "UIPageViewControllerDataSource"]
+- ["14ClassPassClone21TopPageViewControllerC", "UIViewController"]
+- !private ["14ClassPassClone21TopPageViewControllerC", "dataSource"]
+- ["14ClassPassClone21TopPageViewControllerC", "deinit"]
+- ["14ClassPassClone21TopPageViewControllerC", "idList"]
+- ["14ClassPassClone21TopPageViewControllerC", "init"]
+- ["14ClassPassClone21TopPageViewControllerC", "pageViewController"]
+- ["14ClassPassClone21TopPageViewControllerC", "presentationCount"]
+- ["14ClassPassClone21TopPageViewControllerC", "presentationCountForPageViewController"]
+- ["14ClassPassClone21TopPageViewControllerC", "presentationIndex"]
+- ["14ClassPassClone21TopPageViewControllerC", "presentationIndexForPageViewController"]
+- !private ["14ClassPassClone21TopPageViewControllerC", "setViewControllers"]
+- !private ["14ClassPassClone21TopPageViewControllerC", "storyboard"]
+- ["14ClassPassClone21TopPageViewControllerC", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "idList"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "pageViewController"]
+- ["So21UIAppearanceContainerP", "presentationCount"]
+- ["So21UIAppearanceContainerP", "presentationCountForPageViewController"]
+- ["So21UIAppearanceContainerP", "presentationIndex"]
+- ["So21UIAppearanceContainerP", "presentationIndexForPageViewController"]
+- !private ["So21UIAppearanceContainerP", "restorationIdentifier"]
+- !private ["So21UIAppearanceContainerP", "setViewControllers"]
+- !private ["So21UIAppearanceContainerP", "storyboard"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "dataSource"]
+- !private ["So18UIContentContainerP", "idList"]
+- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "pageViewController"]
+- ["So18UIContentContainerP", "presentationCount"]
+- ["So18UIContentContainerP", "presentationCountForPageViewController"]
+- ["So18UIContentContainerP", "presentationIndex"]
+- ["So18UIContentContainerP", "presentationIndexForPageViewController"]
+- !private ["So18UIContentContainerP", "restorationIdentifier"]
+- !private ["So18UIContentContainerP", "setViewControllers"]
+- !private ["So18UIContentContainerP", "storyboard"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "idList"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "pageViewController"]
+- ["So18UIFocusEnvironmentP", "presentationCount"]
+- ["So18UIFocusEnvironmentP", "presentationCountForPageViewController"]
+- ["So18UIFocusEnvironmentP", "presentationIndex"]
+- ["So18UIFocusEnvironmentP", "presentationIndexForPageViewController"]
+- !private ["So18UIFocusEnvironmentP", "restorationIdentifier"]
+- !private ["So18UIFocusEnvironmentP", "setViewControllers"]
+- !private ["So18UIFocusEnvironmentP", "storyboard"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So20UIPageViewControllerC", "Int"]
+- ["So20UIPageViewControllerC", "UIPageViewController"]
+- !private ["So20UIPageViewControllerC", "UIPageViewControllerDataSource"]
+- ["So20UIPageViewControllerC", "UIViewController"]
+- !private ["So20UIPageViewControllerC", "dataSource"]
+- ["So20UIPageViewControllerC", "idList"]
+- ["So20UIPageViewControllerC", "init"]
+- ["So20UIPageViewControllerC", "pageViewController"]
+- ["So20UIPageViewControllerC", "presentationCount"]
+- ["So20UIPageViewControllerC", "presentationCountForPageViewController"]
+- ["So20UIPageViewControllerC", "presentationIndex"]
+- ["So20UIPageViewControllerC", "presentationIndexForPageViewController"]
+- !private ["So20UIPageViewControllerC", "setViewControllers"]
+- !private ["So20UIPageViewControllerC", "storyboard"]
+- ["So20UIPageViewControllerC", "viewDidLoad"]
+- ["So20UIPageViewControllerC", ""]
+- !private ["So30UIPageViewControllerDataSourceP", "dataSource"]
+- !private ["So30UIPageViewControllerDataSourceP", "idList"]
+- ["So30UIPageViewControllerDataSourceP", "pageViewController"]
+- ["So30UIPageViewControllerDataSourceP", "presentationCount"]
+- ["So30UIPageViewControllerDataSourceP", "presentationCountForPageViewController"]
+- ["So30UIPageViewControllerDataSourceP", "presentationIndex"]
+- ["So30UIPageViewControllerDataSourceP", "presentationIndexForPageViewController"]
+- !private ["So30UIPageViewControllerDataSourceP", "setViewControllers"]
+- !private ["So30UIPageViewControllerDataSourceP", "storyboard"]
+- ["So30UIPageViewControllerDataSourceP", ""]
+- !private ["SC39UIPageViewControllerNavigationDirectionO", "forward"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "idList"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "pageViewController"]
+- ["So30UIPasteConfigurationSupportingP", "presentationCount"]
+- ["So30UIPasteConfigurationSupportingP", "presentationCountForPageViewController"]
+- ["So30UIPasteConfigurationSupportingP", "presentationIndex"]
+- ["So30UIPasteConfigurationSupportingP", "presentationIndexForPageViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "restorationIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "setViewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "storyboard"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "UIPageViewController"]
+- !private ["So11UIResponderC", "UIPageViewControllerDataSource"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "dataSource"]
+- ["So11UIResponderC", "idList"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "pageViewController"]
+- ["So11UIResponderC", "presentationCount"]
+- ["So11UIResponderC", "presentationCountForPageViewController"]
+- ["So11UIResponderC", "presentationIndex"]
+- ["So11UIResponderC", "presentationIndexForPageViewController"]
+- !private ["So11UIResponderC", "restorationIdentifier"]
+- !private ["So11UIResponderC", "setViewControllers"]
+- !private ["So11UIResponderC", "storyboard"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "idList"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "pageViewController"]
+- ["So30UIResponderStandardEditActionsP", "presentationCount"]
+- ["So30UIResponderStandardEditActionsP", "presentationCountForPageViewController"]
+- ["So30UIResponderStandardEditActionsP", "presentationIndex"]
+- ["So30UIResponderStandardEditActionsP", "presentationIndexForPageViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "restorationIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "setViewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "storyboard"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "dataSource"]
+- !private ["So16UIStateRestoringP", "idList"]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "pageViewController"]
+- ["So16UIStateRestoringP", "presentationCount"]
+- ["So16UIStateRestoringP", "presentationCountForPageViewController"]
+- ["So16UIStateRestoringP", "presentationIndex"]
+- ["So16UIStateRestoringP", "presentationIndexForPageViewController"]
+- !private ["So16UIStateRestoringP", "restorationIdentifier"]
+- !private ["So16UIStateRestoringP", "setViewControllers"]
+- !private ["So16UIStateRestoringP", "storyboard"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "idList"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "pageViewController"]
+- ["So18UITraitEnvironmentP", "presentationCount"]
+- ["So18UITraitEnvironmentP", "presentationCountForPageViewController"]
+- ["So18UITraitEnvironmentP", "presentationIndex"]
+- ["So18UITraitEnvironmentP", "presentationIndexForPageViewController"]
+- !private ["So18UITraitEnvironmentP", "restorationIdentifier"]
+- !private ["So18UITraitEnvironmentP", "setViewControllers"]
+- !private ["So18UITraitEnvironmentP", "storyboard"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "UIPageViewController"]
+- !private ["So16UIViewControllerC", "UIPageViewControllerDataSource"]
+- ["So16UIViewControllerC", "UIViewController"]
+- !private ["So16UIViewControllerC", "dataSource"]
+- ["So16UIViewControllerC", "idList"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "pageViewController"]
+- ["So16UIViewControllerC", "presentationCount"]
+- ["So16UIViewControllerC", "presentationCountForPageViewController"]
+- ["So16UIViewControllerC", "presentationIndex"]
+- ["So16UIViewControllerC", "presentationIndexForPageViewController"]
+- !private ["So16UIViewControllerC", "restorationIdentifier"]
+- !private ["So16UIViewControllerC", "setViewControllers"]
+- !private ["So16UIViewControllerC", "storyboard"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "first"]
+- !private ["s23_BidirectionalIndexableP", "index"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "first"]
+- !private ["s10_IndexableP", "index"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "first"]
+- !private ["s14_IndexableBaseP", "index"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "idList"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pageViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationCount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationCountForPageViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationIndex"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationIndexForPageViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restorationIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setViewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storyboard"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "first"]
+- !private ["s17_MutableIndexableP", "index"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "first"]
+- !private ["s22_RandomAccessIndexableP", "index"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "first"]
+- !private ["s26_RangeReplaceableIndexableP", "index"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "14ClassPassClone21TopPageViewControllerC"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So20UIPageViewControllerC"
+- "So30UIPageViewControllerDataSourceP"
+- !private "SC39UIPageViewControllerNavigationDirectionO"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "2880638f90fbecf472b76aaaa57d251d"
